@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24610" started-at="2019-08-14T11:24:42Z" finished-at="2019-08-14T11:25:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24610" started-at="2019-08-14T11:24:42Z" finished-at="2019-08-14T11:25:06Z">
+      <class name="TESTNG_TESTS.NewTest2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="beforeClass" is-config="true" duration-ms="13926" started-at="2019-08-14T11:24:42Z" finished-at="2019-08-14T11:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyHomeTitle()[pri:1, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyHomeTitle" duration-ms="31" started-at="2019-08-14T11:24:56Z" finished-at="2019-08-14T11:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeTitle -->
+        <test-method status="PASS" signature="verifyHomeText()[pri:2, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyHomeText" duration-ms="94" started-at="2019-08-14T11:24:56Z" finished-at="2019-08-14T11:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeText -->
+        <test-method status="PASS" signature="search_product()[pri:3, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="search_product" duration-ms="1504" started-at="2019-08-14T11:24:56Z" finished-at="2019-08-14T11:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_product -->
+        <test-method status="PASS" signature="verifySearchTitle()[pri:4, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifySearchTitle" duration-ms="20" started-at="2019-08-14T11:24:57Z" finished-at="2019-08-14T11:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchTitle -->
+        <test-method status="PASS" signature="clickProduct()[pri:5, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="clickProduct" duration-ms="1010" started-at="2019-08-14T11:24:57Z" finished-at="2019-08-14T11:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProduct -->
+        <test-method status="PASS" signature="verifyProductTitle()[pri:6, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyProductTitle" duration-ms="12" started-at="2019-08-14T11:24:58Z" finished-at="2019-08-14T11:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductTitle -->
+        <test-method status="PASS" signature="productDetails()[pri:7, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="productDetails" duration-ms="1687" started-at="2019-08-14T11:24:58Z" finished-at="2019-08-14T11:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetails -->
+        <test-method status="PASS" signature="anotherProduct()[pri:8, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="anotherProduct" duration-ms="4614" started-at="2019-08-14T11:25:00Z" finished-at="2019-08-14T11:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherProduct -->
+        <test-method status="PASS" signature="verifyProduct(java.lang.String)[pri:9, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyProduct" duration-ms="91" started-at="2019-08-14T11:25:05Z" data-provider="product" finished-at="2019-08-14T11:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beginning ASP Databases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method status="PASS" signature="verifyProduct(java.lang.String)[pri:9, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyProduct" duration-ms="93" started-at="2019-08-14T11:25:05Z" data-provider="product" finished-at="2019-08-14T11:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Perl and CGI for the World Wide Web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProduct -->
+        <test-method status="PASS" signature="verifyPrice(java.lang.String)[pri:10, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyPrice" duration-ms="89" started-at="2019-08-14T11:25:05Z" data-provider="price" finished-at="2019-08-14T11:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[39.99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrice -->
+        <test-method status="PASS" signature="verifyPrice(java.lang.String)[pri:10, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="verifyPrice" duration-ms="80" started-at="2019-08-14T11:25:05Z" data-provider="price" finished-at="2019-08-14T11:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30.38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrice -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TESTNG_TESTS.NewTest2@5c7fa833]" name="afterClass" is-config="true" duration-ms="1268" started-at="2019-08-14T11:25:05Z" finished-at="2019-08-14T11:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TESTNG_TESTS.NewTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
